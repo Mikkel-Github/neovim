@@ -1,0 +1,15 @@
+{
+    "Lua Function Docstring": {
+        "prefix": "fn",
+        "body": [
+            "--- $1",
+            "---",
+            "--- @param ${2:param} ${3:type} ${4:description}",
+            "--- @return ${5:return_type} ${6:description}",
+            "function ${7:function_name}(${8:params})",
+            "  ${0}",
+            "end"
+        ],
+        "description": "Lua function documentation"
+    }
+}
